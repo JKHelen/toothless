@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestRED </title>
+</head>
+<body>
+<p>Test</p>
+<script>
+    var i = 1, j = 1, count = 0;
+    for (i ; i < 99; i++) {
+        for (j ; j < 99 - i; j++){
+            var k = 99 - i - j;
+                if (i == j || i == k || j == k) {
+                    count++;
+                }
+            console.log("This area " + j);
+        }
+    }
+    p = count / i;
+    console.log("the result is:" + p);
+    console.log(i);
+    console.log(count);
+</script>ss
+</body>
+</html>
